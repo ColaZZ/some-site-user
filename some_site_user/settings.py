@@ -69,7 +69,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'some_site_user.pipelines.ZhihuPipeline': 300,
-    'scrapy_redis.pipelines.RedisPipeline': 301
+    # 'scrapy_redis.pipelines.RedisPipeline': 301
 
 }
 
