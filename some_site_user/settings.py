@@ -102,3 +102,5 @@ DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 # If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
 REDIS_URL = 'redis://root:@localhost:6379'
 
+SCHEDULER_FLUSH_ON_START=True
+
